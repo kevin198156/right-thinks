@@ -20,7 +20,7 @@ const Navbar = () => {
           <img src={logoMain} alt="睿思健康服務中心" className="h-12 w-auto" />
         </a>
 
-        <div className="hidden lg:flex items-center gap-8 text-muted-foreground font-medium text-sm">
+        <div className="hidden lg:flex items-center gap-8 text-muted-foreground font-medium text-base">
           {navLinks.map((l) => (
             <a key={l.href} href={l.href} className="hover:text-primary transition-colors">
               {l.label}
