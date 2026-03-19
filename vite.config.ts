@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // 重要：這裡必須對應您的 GitHub 倉庫名稱
-  base: "/right-thinks/",
+  base: "/",
   server: {
     host: "::",
     port: 8080,
