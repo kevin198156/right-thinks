@@ -12,12 +12,12 @@ const Hero = () => (
   <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-muted to-card">
     <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-        <h1 className="text-4xl lg:text-6xl font-bold text-secondary leading-tight mb-6 tracking-tight">
+        <h1 className="text-5xl lg:text-7xl font-bold text-secondary leading-tight mb-6 tracking-tight">
           想要健康嗎？想要快樂嗎？
           <br />
           <span className="text-primary">從心開始的全面健康管理</span>
         </h1>
-        <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
+        <p className="text-xl lg:text-2xl text-muted-foreground mb-10 leading-relaxed">
           提供企業 ESG 勞工健康體系、個人催眠療癒與整合式健康服務。
         </p>
 
