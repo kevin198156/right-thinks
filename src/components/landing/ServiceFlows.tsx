@@ -78,7 +78,7 @@ const ServiceFlows = () => (
         className="text-center mb-16"
       >
         <p className="text-primary font-bold text-sm tracking-widest uppercase mb-3">Service Flows</p>
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">專業服務流程</h2>
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tight">專業服務流程</h2>
       </motion.div>
 
       <div className="grid md:grid-cols-2 gap-12 md:gap-16">

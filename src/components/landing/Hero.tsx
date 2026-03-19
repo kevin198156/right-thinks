@@ -29,10 +29,10 @@ const Hero = () => (
         >
           <img src={lineQr} alt="LINE QR Code" className="w-24 h-24 rounded-lg shrink-0" />
           <div>
-            <p className="text-foreground font-bold mb-1">免費健康諮詢預約</p>
-            <p className="text-sm text-muted-foreground mb-2">填完資料若需要免費健康諮詢預約，請洽LINE</p>
-            <span className="inline-flex items-center gap-1 text-accent font-bold text-sm">
-              立即前往 LINE 洽詢 <ArrowRight size={16} />
+            <p className="text-foreground font-bold text-lg mb-1">免費健康諮詢預約</p>
+            <p className="text-base text-muted-foreground mb-2">填完資料若需要免費健康諮詢預約，請洽LINE</p>
+            <span className="inline-flex items-center gap-1 text-accent font-bold text-base">
+              立即前往 LINE 洽詢 <ArrowRight size={18} />
             </span>
           </div>
         </a>

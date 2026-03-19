@@ -50,7 +50,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="max-w-7xl mx-auto pt-8 border-t border-border text-center text-muted-foreground text-sm">
+    <div className="max-w-7xl mx-auto pt-8 border-t border-border text-center text-muted-foreground text-base">
       © {new Date().getFullYear()} 睿思健康服務中心 Right-Thinks. All Rights Reserved.
     </div>
   </footer>
