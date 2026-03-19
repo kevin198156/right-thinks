@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 mb-16">
       <div>
         <img src={logoMain} alt="睿思健康服務中心" className="h-10 mb-6" />
-        <p className="text-muted-foreground leading-relaxed text-sm">
+        <p className="text-muted-foreground leading-relaxed text-base">
           睿思健康服務中心致力於為企業、政府機構和個人提供全面的健康管理解決方案。
         </p>
       </div>
