@@ -12,8 +12,8 @@ const Footer = () => (
         </p>
       </div>
 
-      <div className="space-y-3 text-muted-foreground text-sm">
-        <h4 className="font-bold text-foreground text-base">聯絡資訊</h4>
+      <div className="space-y-3 text-muted-foreground text-base">
+        <h4 className="font-bold text-foreground text-xl">聯絡資訊</h4>
         <p>地址：高雄市左營區文天路128號3F</p>
         <p>電話：07-3980308</p>
         <p>信箱：rightthinks1122@gmail.com</p>
