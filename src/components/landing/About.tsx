@@ -81,8 +81,8 @@ const About = () => (
             <div className="w-14 h-14 mx-auto mb-5 rounded-xl bg-primary/10 flex items-center justify-center">
               <p.icon className="text-primary" size={28} />
             </div>
-            <h4 className="font-bold text-foreground text-lg mb-3">{p.title}</h4>
-            <p className="text-body text-sm">{p.desc}</p>
+            <h4 className="font-bold text-foreground text-xl mb-3">{p.title}</h4>
+            <p className="text-body">{p.desc}</p>
           </motion.div>
         ))}
       </div>
