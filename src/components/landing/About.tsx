@@ -55,7 +55,7 @@ const About = () => (
         viewport={{ once: true, margin: '-80px' }}
         className="bg-muted rounded-2xl p-8 md:p-12 mb-16"
       >
-        <motion.h3 variants={fadeUp} custom={0} className="text-xl font-bold text-secondary mb-4">公司目標</motion.h3>
+        <motion.h3 variants={fadeUp} custom={0} className="text-2xl font-bold text-secondary mb-4">公司目標</motion.h3>
         <motion.ul variants={fadeUp} custom={1} className="text-body space-y-3">
           <li>成為客戶心中最值得信賴的健康管理顧問公司，引領健康管理行業的發展。</li>
           <li>幫助客戶改善並維持健康狀況，實現持續的健康增長，提升生活品質。</li>
