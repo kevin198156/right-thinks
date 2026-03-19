@@ -33,7 +33,7 @@ const Navbar = () => {
             href="https://www.facebook.com/rightthinks1122/"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center gap-2 bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-bold hover:opacity-90 transition-opacity"
+            className="hidden sm:inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-full text-base font-bold hover:opacity-90 transition-opacity"
           >
             睿思 FB (最新活動) <ExternalLink size={14} />
           </a>
