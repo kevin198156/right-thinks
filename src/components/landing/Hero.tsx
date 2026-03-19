@@ -42,7 +42,7 @@ const Hero = () => (
         initial={{ opacity: 0, scale: 0.95 }}
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.8, ease: [0.2, 0.8, 0.2, 1] }}
+        transition={{ duration: 0.8, ease }}
         className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl"
       >
         <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent z-10" />
