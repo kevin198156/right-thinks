@@ -53,7 +53,7 @@ const Navbar = () => {
             <a
               key={l.href}
               href={l.href}
-              className="block py-2 text-foreground font-medium hover:text-primary transition-colors"
+              className="block py-2 text-foreground font-medium text-lg hover:text-primary transition-colors"
               onClick={() => setOpen(false)}
             >
               {l.label}
