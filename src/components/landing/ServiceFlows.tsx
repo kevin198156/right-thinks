@@ -39,7 +39,7 @@ const Timeline = ({
   label: string;
 }) => (
   <div>
-    <h3 className="font-bold text-xl mb-8 flex items-center gap-3">
+    <h3 className="font-bold text-2xl mb-8 flex items-center gap-3">
       <span className={`w-8 h-1 rounded-full ${dotColor}`} />
       {label}
     </h3>
