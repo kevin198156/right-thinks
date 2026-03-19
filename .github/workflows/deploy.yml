@@ -1,4 +1,4 @@
-# Simple workflow for deploying static content to GitHub Pages
+# 升級版：解決 Node 20 報錯與安裝問題
 name: Deploy static content to Pages
 
 on:
@@ -24,21 +24,29 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
+      # 關鍵更新 1：移除過時的 Node 20，讓系統自動使用最新相容版本
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
+          
+      # 關鍵更新 2：使用更穩定的安裝指令來避免依賴項衝突
       - name: Install dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps
+        
       - name: Build
         run: npm run build
+        
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
