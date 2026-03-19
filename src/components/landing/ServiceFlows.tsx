@@ -59,7 +59,7 @@ const Timeline = ({
           </span>
           <div className="pb-6 border-l border-muted-foreground/20 pl-6 relative">
             <div className={`absolute w-2.5 h-2.5 rounded-full -left-[5.5px] top-2 ${dotColor}`} />
-            <p className="text-lg text-primary-foreground/90">{step}</p>
+            <p className="text-xl text-primary-foreground/90">{step}</p>
           </div>
         </motion.div>
       ))}
