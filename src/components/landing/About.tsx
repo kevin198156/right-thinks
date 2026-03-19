@@ -65,7 +65,7 @@ const About = () => (
       <motion.h3
         initial="hidden" whileInView="visible" viewport={{ once: true }}
         variants={fadeUp} custom={0}
-        className="text-2xl font-bold text-secondary text-center mb-12"
+        className="text-3xl font-bold text-secondary text-center mb-12"
       >
         公司經營理念
       </motion.h3>
