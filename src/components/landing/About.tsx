@@ -55,7 +55,7 @@ const About = () => (
         viewport={{ once: true, margin: '-80px' }}
         className="bg-muted rounded-2xl p-8 md:p-12 mb-16"
       >
-        <motion.h3 variants={fadeUp} custom={0} className="text-xl font-bold text-secondary mb-4">公司目標</motion.h3>
+        <motion.h3 variants={fadeUp} custom={0} className="text-2xl font-bold text-secondary mb-4">公司目標</motion.h3>
         <motion.ul variants={fadeUp} custom={1} className="text-body space-y-3">
           <li>成為客戶心中最值得信賴的健康管理顧問公司，引領健康管理行業的發展。</li>
           <li>幫助客戶改善並維持健康狀況，實現持續的健康增長，提升生活品質。</li>
@@ -65,7 +65,7 @@ const About = () => (
       <motion.h3
         initial="hidden" whileInView="visible" viewport={{ once: true }}
         variants={fadeUp} custom={0}
-        className="text-2xl font-bold text-secondary text-center mb-12"
+        className="text-3xl font-bold text-secondary text-center mb-12"
       >
         公司經營理念
       </motion.h3>
@@ -81,8 +81,8 @@ const About = () => (
             <div className="w-14 h-14 mx-auto mb-5 rounded-xl bg-primary/10 flex items-center justify-center">
               <p.icon className="text-primary" size={28} />
             </div>
-            <h4 className="font-bold text-foreground text-lg mb-3">{p.title}</h4>
-            <p className="text-body text-sm">{p.desc}</p>
+            <h4 className="font-bold text-foreground text-xl mb-3">{p.title}</h4>
+            <p className="text-body">{p.desc}</p>
           </motion.div>
         ))}
       </div>
@@ -92,8 +92,8 @@ const About = () => (
         variants={fadeUp} custom={0}
         className="max-w-3xl mx-auto bg-muted rounded-2xl p-8 md:p-12"
       >
-        <h3 className="text-xl font-bold text-secondary mb-4">總結</h3>
-        <p className="text-body text-sm leading-relaxed">
+        <h3 className="text-2xl font-bold text-secondary mb-4">總結</h3>
+        <p className="text-body leading-relaxed">
           睿思健康管理顧問公司的願景在專業、誠信、以人為本的服務精神，成為客戶心中值得信賴的健康管理顧問公司，引領行業發展，為社會創造更多的價值。在未來的發展過程中，我們將堅持以客戶需求為導向，持續提升服務質量，擁抱創新，積極拓展業務範疇，與合作夥伴共享資源，實現互利共贏。
         </p>
       </motion.div>

@@ -84,11 +84,13 @@
 
   html {
     scroll-behavior: smooth;
+    font-size: 18px;
   }
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-family: 'Noto Sans TC', sans-serif;
+    @apply text-xl leading-relaxed;
   }
 }
 
@@ -102,10 +104,10 @@
   }
 
   .heading-section {
-    @apply text-3xl md:text-4xl font-bold text-secondary tracking-tight;
+    @apply text-4xl md:text-5xl font-bold text-secondary tracking-tight;
   }
 
   .text-body {
-    @apply text-muted-foreground leading-relaxed;
+    @apply text-muted-foreground leading-relaxed text-xl;
   }
 }

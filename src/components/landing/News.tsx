@@ -48,9 +48,9 @@ const News = () => (
             variants={fadeUp} custom={i}
             className="group bg-card border border-border rounded-2xl p-8 flex flex-col justify-between hover:shadow-lg hover:shadow-primary/5 transition-shadow min-h-[220px]"
           >
-            <h3 className="font-bold text-foreground text-lg mb-6 leading-relaxed">{c.title}</h3>
-            <span className="inline-flex items-center gap-2 text-accent font-bold text-sm group-hover:gap-3 transition-all">
-              {c.btn} <ArrowRight size={16} />
+            <h3 className="font-bold text-foreground text-xl mb-6 leading-relaxed">{c.title}</h3>
+            <span className="inline-flex items-center gap-2 text-accent font-bold text-base group-hover:gap-3 transition-all">
+              {c.btn} <ArrowRight size={18} />
             </span>
           </motion.a>
         ))}

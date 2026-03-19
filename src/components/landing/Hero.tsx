@@ -12,12 +12,12 @@ const Hero = () => (
   <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-muted to-card">
     <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
       <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
-        <h1 className="text-4xl lg:text-6xl font-bold text-secondary leading-tight mb-6 tracking-tight">
+        <h1 className="text-5xl lg:text-7xl font-bold text-secondary leading-tight mb-6 tracking-tight">
           想要健康嗎？想要快樂嗎？
           <br />
           <span className="text-primary">從心開始的全面健康管理</span>
         </h1>
-        <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
+        <p className="text-xl lg:text-2xl text-muted-foreground mb-10 leading-relaxed">
           提供企業 ESG 勞工健康體系、個人催眠療癒與整合式健康服務。
         </p>
 
@@ -29,10 +29,10 @@ const Hero = () => (
         >
           <img src={lineQr} alt="LINE QR Code" className="w-24 h-24 rounded-lg shrink-0" />
           <div>
-            <p className="text-foreground font-bold mb-1">免費健康諮詢預約</p>
-            <p className="text-sm text-muted-foreground mb-2">填完資料若需要免費健康諮詢預約，請洽LINE</p>
-            <span className="inline-flex items-center gap-1 text-accent font-bold text-sm">
-              立即前往 LINE 洽詢 <ArrowRight size={16} />
+            <p className="text-foreground font-bold text-lg mb-1">免費健康諮詢預約</p>
+            <p className="text-base text-muted-foreground mb-2">填完資料若需要免費健康諮詢預約，請洽LINE</p>
+            <span className="inline-flex items-center gap-1 text-accent font-bold text-base">
+              立即前往 LINE 洽詢 <ArrowRight size={18} />
             </span>
           </div>
         </a>

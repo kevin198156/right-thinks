@@ -42,7 +42,7 @@ const Services = () => (
             <div className="w-14 h-14 mb-5 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
               <s.icon className="text-primary" size={28} strokeWidth={1.5} />
             </div>
-            <h3 className="font-bold text-foreground text-lg">{s.title}</h3>
+            <h3 className="font-bold text-foreground text-xl">{s.title}</h3>
           </motion.div>
         ))}
       </div>

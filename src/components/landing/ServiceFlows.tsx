@@ -39,7 +39,7 @@ const Timeline = ({
   label: string;
 }) => (
   <div>
-    <h3 className="font-bold text-xl mb-8 flex items-center gap-3">
+    <h3 className="font-bold text-2xl mb-8 flex items-center gap-3">
       <span className={`w-8 h-1 rounded-full ${dotColor}`} />
       {label}
     </h3>
@@ -59,7 +59,7 @@ const Timeline = ({
           </span>
           <div className="pb-6 border-l border-muted-foreground/20 pl-6 relative">
             <div className={`absolute w-2.5 h-2.5 rounded-full -left-[5.5px] top-2 ${dotColor}`} />
-            <p className="text-lg text-primary-foreground/90">{step}</p>
+            <p className="text-xl text-primary-foreground/90">{step}</p>
           </div>
         </motion.div>
       ))}
@@ -78,7 +78,7 @@ const ServiceFlows = () => (
         className="text-center mb-16"
       >
         <p className="text-primary font-bold text-sm tracking-widest uppercase mb-3">Service Flows</p>
-        <h2 className="text-3xl md:text-4xl font-bold tracking-tight">專業服務流程</h2>
+        <h2 className="text-4xl md:text-5xl font-bold tracking-tight">專業服務流程</h2>
       </motion.div>
 
       <div className="grid md:grid-cols-2 gap-12 md:gap-16">

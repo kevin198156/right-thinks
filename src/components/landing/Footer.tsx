@@ -7,13 +7,13 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 mb-16">
       <div>
         <img src={logoMain} alt="睿思健康服務中心" className="h-10 mb-6" />
-        <p className="text-muted-foreground leading-relaxed text-sm">
+        <p className="text-muted-foreground leading-relaxed text-base">
           睿思健康服務中心致力於為企業、政府機構和個人提供全面的健康管理解決方案。
         </p>
       </div>
 
-      <div className="space-y-3 text-muted-foreground text-sm">
-        <h4 className="font-bold text-foreground text-base">聯絡資訊</h4>
+      <div className="space-y-3 text-muted-foreground text-base">
+        <h4 className="font-bold text-foreground text-xl">聯絡資訊</h4>
         <p>地址：高雄市左營區文天路128號3F</p>
         <p>電話：07-3980308</p>
         <p>信箱：rightthinks1122@gmail.com</p>
@@ -50,7 +50,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="max-w-7xl mx-auto pt-8 border-t border-border text-center text-muted-foreground text-sm">
+    <div className="max-w-7xl mx-auto pt-8 border-t border-border text-center text-muted-foreground text-base">
       © {new Date().getFullYear()} 睿思健康服務中心 Right-Thinks. All Rights Reserved.
     </div>
   </footer>
