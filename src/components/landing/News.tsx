@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
+const ease = [0.2, 0.8, 0.2, 1] as const;
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
   visible: (i: number) => ({
     opacity: 1, y: 0,
-    transition: { delay: i * 0.15, duration: 0.6, ease: [0.2, 0.8, 0.2, 1] },
+    transition: { delay: i * 0.15, duration: 0.6, ease },
   }),
 };
 

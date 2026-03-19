@@ -2,9 +2,10 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import lineQr from '@/assets/line-qr.png';
 
+const ease = [0.2, 0.8, 0.2, 1] as const;
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.2, 0.8, 0.2, 1] } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease } },
 };
 
 const Hero = () => (
